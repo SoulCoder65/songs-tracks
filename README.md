@@ -6,15 +6,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![](Snapshots/pic1.png)
 
-Default Top 10 tracks of Justin bieber
+Default Top 10 tracks 
 
 ![](Snapshots/pic2.png)
 
-You can Search any artist or track 
+You can view lyrics of clicked track(I use free package of api that's why only few lines of lyrics fetched.
 
 ![](Snapshots/pic3.png)
 
-You can view lyrics of clicked track(I use free package of api that's why only few lines of lyrics fetched.
+You can Search any artist or track 
 
 ## Available Scripts
 
