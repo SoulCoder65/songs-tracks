@@ -7,7 +7,7 @@ import "./App.css";
 import Lyrics from "./components/lyrics/Lyrics";
 import Loader from "./Images/loader.png";
 import "./index.css";
-
+import { HashRouter } from "react-router-dom";
 // Context APi
 const ApiData = createContext();
 // Api
@@ -35,17 +35,19 @@ const App = () => {
 
   if (Data !== null || Data.length !== 0) {
     return (
-      <>
-        <ApiData.Provider value={Data}>
-          <Navbar onSearch={onSearch} />
-          <div className="body">
-            <Switch>
-              <Route exact path="/" component={Tracks} />
-              <Route exact path="/track/:name/:id" component={Lyrics} />
-            </Switch>
-          </div>
-        </ApiData.Provider>
-      </>
+      <HashRouter basename="/">
+        <>
+          <ApiData.Provider value={Data}>
+            <Navbar onSearch={onSearch} />
+            <div className="body">
+              <Switch>
+                <Route exact path="/" component={Tracks} />
+                <Route exact path="/track/:name/:id" component={Lyrics} />
+              </Switch>
+            </div>
+          </ApiData.Provider>
+        </>
+      </HashRouter>
     );
   } else {
     return (

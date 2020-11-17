@@ -75,7 +75,6 @@ const Navbar = ({ onSearch }) => {
   const [trackSearch, getTrackSearch] = useState([]); //after getting response send response to app.js
   const [artistName, setArtistName] = useState("justin bieber"); //Artist or track_name
   const [onInputChange, setInput] = useState(""); //To check input field value change
-  // Make api call via axios
   useEffect(() => {
     axios
       .get(
@@ -100,7 +99,7 @@ const Navbar = ({ onSearch }) => {
 
   const classes = useStyles();
 
-  // Function run on search btn
+  // O
   const onSearchClick = (e) => {
     setArtistName(onInputChange);
     onSearch(trackSearch);
