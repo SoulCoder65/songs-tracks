@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/songs-tracks/static/css/main.ae4f9ef4.chunk.css",
-    "main.js": "/songs-tracks/static/js/main.9a44f58b.chunk.js",
-    "main.js.map": "/songs-tracks/static/js/main.9a44f58b.chunk.js.map",
+    "main.css": "/songs-tracks/static/css/main.5030fa71.chunk.css",
+    "main.js": "/songs-tracks/static/js/main.4d8ea001.chunk.js",
+    "main.js.map": "/songs-tracks/static/js/main.4d8ea001.chunk.js.map",
     "runtime-main.js": "/songs-tracks/static/js/runtime-main.82571036.js",
     "runtime-main.js.map": "/songs-tracks/static/js/runtime-main.82571036.js.map",
-    "static/js/2.bb22ba0f.chunk.js": "/songs-tracks/static/js/2.bb22ba0f.chunk.js",
-    "static/js/2.bb22ba0f.chunk.js.map": "/songs-tracks/static/js/2.bb22ba0f.chunk.js.map",
+    "static/js/2.7778f570.chunk.js": "/songs-tracks/static/js/2.7778f570.chunk.js",
+    "static/js/2.7778f570.chunk.js.map": "/songs-tracks/static/js/2.7778f570.chunk.js.map",
     "index.html": "/songs-tracks/index.html",
-    "static/css/main.ae4f9ef4.chunk.css.map": "/songs-tracks/static/css/main.ae4f9ef4.chunk.css.map",
-    "static/js/2.bb22ba0f.chunk.js.LICENSE.txt": "/songs-tracks/static/js/2.bb22ba0f.chunk.js.LICENSE.txt",
-    "static/media/loader.d531c5ab.png": "/songs-tracks/static/media/loader.d531c5ab.png",
-    "static/media/App.css": "/songs-tracks/static/media/music-bg3.0f2f2177.jpg"
+    "static/css/main.5030fa71.chunk.css.map": "/songs-tracks/static/css/main.5030fa71.chunk.css.map",
+    "static/js/2.7778f570.chunk.js.LICENSE.txt": "/songs-tracks/static/js/2.7778f570.chunk.js.LICENSE.txt",
+    "static/media/loader.d531c5ab.png": "/songs-tracks/static/media/loader.d531c5ab.png"
   },
   "entrypoints": [
     "static/js/runtime-main.82571036.js",
-    "static/js/2.bb22ba0f.chunk.js",
-    "static/css/main.ae4f9ef4.chunk.css",
-    "static/js/main.9a44f58b.chunk.js"
+    "static/js/2.7778f570.chunk.js",
+    "static/css/main.5030fa71.chunk.css",
+    "static/js/main.4d8ea001.chunk.js"
   ]
 }
